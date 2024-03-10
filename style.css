@@ -1,0 +1,91 @@
+body {
+    background-color: #f0f5f9; /* Light pastel blue */
+    color: #333; /* Dark gray */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    padding:20px;
+    box-shadow: 0px 0px 10px ;
+    text-align: center;
+}
+
+
+    #controls {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #7ebdb9; /* Light pastel green */
+    border: none;
+    color: #fff; /* White */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #5ca8a0; /* Darker shade of pastel green */
+}
+
+#swars {
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#swars p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+#a1{
+    text-decoration: none;
+    transition: 1s;
+    color: rgb(241, 140, 16); /* Light pastel green */
+}
+
+#a1:hover {
+    font-size: larger;
+    color: #5ca8a0; /* Darker shade of pastel green */
+    padding: 5px;
+}
+#a2 {
+    transition: transform 2s; /* Transition property applied to transform */
+}
+
+#a2:hover {
+    height: 20px;
+    color: #5ca8a0;
+    transform: rotate(20deg); /* Apply rotation on hover */
+}
+
+
+#credits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
